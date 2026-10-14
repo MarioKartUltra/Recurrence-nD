@@ -1,0 +1,14 @@
+# build artefacts and environments; results and notebooks are local-only (see .git/info/exclude)
+*.o
+*.so
+*.dylib
+build/
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+generalized/test_grp
+generalized/test_network
+generalized/test_joint_cross_window
